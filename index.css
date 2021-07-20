@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root {
+    --mainBlue: rgba(0, 102, 159, 1);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*--- HEADER ---*/
+
+.descuento {
+    background: rgba(28, 209, 176, 1);
+    padding: 5px;
+}
+
+.titulo {
+    background: var(--mainBlue);
+    padding: 15px;
+}
+
+main {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    /* height: 80vh; */
+}
+
+.card1,
+.card2,
+.card3 {
+    margin: 20px 0;
+    width: 300px;
+    position: relative;
+    background: rgba(243, 243, 243, 1);
+    box-shadow: 0 3px 4px 0px rgba(0, 0, 0, 0.432);
+    border-radius: 15px 15px 0 0;
+}
+
+.corazon {
+    position: absolute;
+    left: 0;
+    margin: 20px;
+}
+
+.heroe {
+    position: absolute;
+    top: calc(35% - 59px);
+    left: calc(50% - 60px);
+    border-radius: 50%;
+    box-shadow: 0 0 8px 0px rgba(0, 0, 0, 0.7);
+}
+
+.cardCont {
+    margin-top: 60px;
+}
+
+.cardCont h2 {
+    font-size: 30px;
+}
+
+.descp {
+    text-align: left;
+    padding: 10px;
+}
+
+.boton {
+    background: var(--mainBlue);
+    margin: 20px 90px;
+    padding: 15px;
+}
+
+.boton a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    background: var(--mainBlue);
+    padding: 15px;
+    color: white;
+}
