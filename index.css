@@ -26,12 +26,15 @@ main {
     display: flex;
     text-align: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     /* height: 80vh; */
 }
 
-.card1,
-.card2,
-.card3 {
+.b3 {
+    border-radius: 15px 15px 0 0;
+}
+
+.card {
     margin: 20px 0;
     width: 300px;
     position: relative;
@@ -48,7 +51,7 @@ main {
 
 .heroe {
     position: absolute;
-    top: calc(35% - 59px);
+    top: calc(30% - 59px);
     left: calc(50% - 60px);
     border-radius: 50%;
     box-shadow: 0 0 8px 0px rgba(0, 0, 0, 0.7);
@@ -82,4 +85,12 @@ footer {
     background: var(--mainBlue);
     padding: 15px;
     color: white;
+    display: flex;
+    justify-content: space-between;
 }
+
+.vGit {
+    width: 5rem;
+}
+
+@media screen and (max-width: 1023px) {}
