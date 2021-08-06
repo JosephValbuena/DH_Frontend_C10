@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro - Heroes</title>
+    <!--Estilos CSS-->
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/add.css">
+    <!-- Font Awesome-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+    <header>
+        <div class="descuento">
+            <p>Descuentos 20% en todos los productos</p>
+        </div>
+        <div class="titulo">
+            <img src="/img/logo.png" width="79" height="60" alt="">
+            <p>Heroes</p>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../vistas/contacto.html">Contacto</a></li>
+                <li><a href="../vistas/registro.html">Registrarme</a></li>
+                <li><a href="../vistas/ingreso.html">Ingresar</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <div class="content">
+            <h3>Añadí tu super!</h3>
+            <p class="psecu">Agregá tu personaje favorito completando las opciones</p>
+
+            <form action="">
+                <div class="contentI">
+                    <div class="inputs1">
+                        <label for="nombre">*Nombre</label>
+                        <input type="text" name="nombre" id="nombre">
+                        <br>
+                        <label for="fecha">Fecha</label>
+                        <input type="date" name="fecha" id="fecha">
+                        <br>
+                        <textarea name="descp" id="descp" cols="30" rows="13" placeholder="Descripción"></textarea>
+                    </div>
+                    <div class="inputs2">
+                        <label for="especie">*Especie</label>
+                        <input type="text" name="especie" id="especie">
+                        <br>
+
+                        <label for="foto">Agregar Foto</label>
+                        <input type="file" name="foto" id="foto">
+
+                        <br>
+
+                        <p class="tPoderes">Poderes</p>
+                        <div class="checkPo">
+                            <input type="checkbox" name="poder" id="poder" value="volar">
+                            <p>Volar</p>
+                        </div>
+                        <div class="checkPo">
+                            <input type="checkbox" name="poder" id="poder" value="inteligencia">
+                            <p>SuperInteligencia</p>
+                        </div>
+                        <div class="checkPo">
+                            <input type="checkbox" name="poder" id="poder" value="laser">
+                            <p>Vista de Rayo Láser</p>
+                        </div>
+                        <div class="checkPo">
+                            <input type="checkbox" name="poder" id="poder" value="dinero">
+                            <p>Billetera Gorda</p>
+                        </div>
+
+
+                        <hr>
+
+                        <p class="tPersonaje">Tipo de Personaje</p>
+                        <div class="checkPo">
+                            <input type="radio" name="tipo" id="tipo" value="heroe">
+                            <p>Héroe / Heroína</p>
+
+                        </div>
+
+                        <div class="checkPo">
+                            <input type="radio" name="tipo" id="tipo" value="malo">
+                            <p>Villano / Villana</p>
+                        </div>
+                    </div>
+                </div>
+                <input type="submit" value="Añadir" class="btnEnv">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>Todos los derechos reservados a FRONT END 1</p>
+        <a href="https://github.com/JosephValbuena/DH_Frontend_C10" target="_blank"><img src="/img/Vector.png" alt="" class="vGit"></a>
+    </footer>
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+        jQuery('input[type=file]').change(function() {
+            var filename = jQuery(this).val().split('\\').pop();
+            var idname = jQuery(this).attr('id');
+            console.log(jQuery(this));
+            console.log(filename);
+            console.log(idname);
+            jQuery('span.' + idname).next().find('span').html(filename);
+        });
+    </script> -->
+</body>
+
+</html>
