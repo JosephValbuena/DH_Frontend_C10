@@ -1,0 +1,66 @@
+h1 {
+    color: #f2f2f2;
+}
+
+main {
+    background-image: url(img/bgPtHarley.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 79.6vh;
+}
+
+.foto {
+    position: absolute;
+    top: 19vh;
+    right: 46vw;
+    border-radius: 50%;
+}
+
+.corazon {
+    left: 30vw;
+    margin: 40px 20px;
+}
+
+.presentacion {
+    background: #f2f2f2;
+    margin: 15vh 30vw;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: left;
+}
+
+.presentacion h3 {
+    margin: 50px 0 10px 0;
+    text-align: center !important;
+    color: #2C0187;
+    text-decoration: underline;
+    font-size: 28px;
+}
+
+span {
+    color: #2C0187;
+}
+
+.habilidades {
+    text-align: center !important;
+    margin: 10px 0 5px 0;
+}
+
+.btnBack {
+    position: absolute;
+    background: #2C0187;
+    left: 30vw;
+    padding: 3vh 0;
+    width: 40vw;
+    text-align: center;
+    border-radius: 0 0 20px 20px;
+}
+
+.btnBack a {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+.btnBack a:hover {
+    text-decoration: underline;
+}

@@ -18,8 +18,38 @@
 }
 
 .titulo {
+    display: flex;
     background: var(--mainBlue);
-    padding: 15px;
+    padding: 5px;
+}
+
+.titulo h1 {
+    line-height: 60px;
+}
+
+.menu {
+    background: #001D2D;
+    text-align: right;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu ul li {
+    list-style: none;
+    margin: 10px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
+.menu ul li a:hover {
+    transition: .5s ease all;
+    font-weight: bold;
 }
 
 main {
@@ -28,6 +58,21 @@ main {
     justify-content: space-evenly;
     flex-wrap: wrap;
     /* height: 80vh; */
+}
+
+.addHero {
+    font-size: 60px;
+    color: #00669F;
+    position: fixed;
+    z-index: 2;
+    top: 50%;
+    right: 10px;
+    transition: .5s ease all;
+}
+
+.addHero:hover {
+    transition: .5s ease all;
+    color: #014064;
 }
 
 .b3 {

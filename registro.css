@@ -1,0 +1,82 @@
+.titulo p {
+    line-height: 60px;
+    font-size: 36px;
+}
+
+main {
+    display: block;
+    margin: 15vh 33vw 5vh 33vw;
+    /* height: 74.4vh; */
+    text-align: left;
+}
+
+h1 {
+    font-size: 54px;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+form {
+    text-align: center !important;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs input,
+select {
+    padding: 12px 0;
+    margin: 5px 0;
+    padding-left: 5px;
+}
+
+.inputs input::placeholder {
+    color: #000;
+}
+
+form input[type="reset"] {
+    width: 47%;
+    padding: 10px 0;
+    border-radius: 15px;
+    border: none;
+    background: #888888;
+    color: #f2f2f2;
+    margin-top: 40px;
+    font-size: 16px;
+}
+
+form input[type="submit"] {
+    width: 47%;
+    padding: 10px 0;
+    border-radius: 15px;
+    border: none;
+    background: #1CD1B0;
+    margin: 40px 0 10px 5px;
+    font-size: 16px;
+}
+
+form p {
+    margin-bottom: 41px;
+}
+
+form p a {
+    color: rgba(0, 102, 159, 1)
+}
+
+form p a:hover {
+    color: rgb(2, 78, 122)
+}
+
+.ingreso {
+    margin: 15vh 33vw 19.6vh 33vw !important;
+}
+
+.ingreso2 {
+    margin: 7.8vh 33vw 0vh 33vw !important;
+}
+
+.entrar {
+    width: 100% !important;
+}
